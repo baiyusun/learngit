@@ -1,0 +1,16 @@
+创建仓库:git init
+把文件添加到仓库:git add <file>
+提交到仓库:git commit -m <message>
+查看历史记录:git log
+简化历史记录:git log --pretty=oneline
+回退版本:git reset --hard commit_id
+查看历史命令:git reflog
+查看状态:git status
+查看暂存区和工作区的不同:git diff
+撤销修改:git chechout -- <file>
+删除修改:git rm <filename>
+创建SSH Key:ssh-keygen -t rsa -C "youremail@example.com"
+关联远程仓库:git remote add labname git@github.com:baiyusun/learngit.git
+初次把本地库所有内容推送到远程库:git push -u labname master
+后续推送本地提交:git push labname master
+解除远程绑定:git remote rm labname
