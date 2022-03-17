@@ -11,8 +11,8 @@
 删除修改:git rm <filename>
 创建SSH Key:ssh-keygen -t rsa -C "youremail@example.com"
 关联远程仓库:git remote add labname git@github.com:baiyusun/learngit.git
-初次把本地库所有内容推送到远程库:git push -u labname master
-后续推送本地提交:git push labname master
+初次把本地库所有内容推送到远程库:git push -u remote_labname master
+后续推送本地提交:git push remote_labname master
 解除远程绑定:git remote rm labname
 创建分支:git checkout -b <name>   /  git switch -c <name>
 查看分支:git branch
