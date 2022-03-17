@@ -14,3 +14,8 @@
 初次把本地库所有内容推送到远程库:git push -u labname master
 后续推送本地提交:git push labname master
 解除远程绑定:git remote rm labname
+创建分支:git checkout -b <name>   /  git switch -c <name>
+查看分支:git branch
+切换分支:git check <name>   /  git switch <name>
+删除分支:git branch -d <name>
+合并分支:git merge <name>
